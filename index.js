@@ -6,7 +6,6 @@ try {
     const regex = new RegExp(getInput('regex'))
     const result = regex.exec(title)
     const task = result[1]
-    console.log(task)
     setOutput("task_number", task);
 
 } catch (error) {

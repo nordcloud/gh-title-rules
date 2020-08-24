@@ -5647,7 +5647,6 @@ try {
     const regex = new RegExp(Object(_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)('regex'))
     const result = regex.exec(title)
     const task = result[1]
-    console.log(task)
     Object(_actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput)("task_number", task);
 
 } catch (error) {
