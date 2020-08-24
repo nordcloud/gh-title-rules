@@ -1,0 +1,12 @@
+name: 'PR title rule'
+description: 'Test PR title against jira task number format'
+inputs:
+  regex:
+    description: 'Regex to test title (must containg one group which is returned)'
+    required: true
+outputs:
+  task_number:
+    description: 'Task number'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
