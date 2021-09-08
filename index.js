@@ -9,5 +9,5 @@ try {
     setOutput("task_number", task);
 
 } catch (error) {
-    setFailed(`Title must start with ticket number: [MCT-123] Text`);
+    setFailed(`Title must start with ticket number, e.g.: [MCT-123] Text`);
 }
